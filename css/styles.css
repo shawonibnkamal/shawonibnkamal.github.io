@@ -1,0 +1,265 @@
+/* Global */ 
+
+body {
+	padding-top: 50px;
+	font-family: Arial, Sans-serif;
+}
+
+p {
+	font-size: 20px; 
+}
+
+h1 {
+	font-size: 60px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 48px;
+}
+
+/* Navbar */
+ .navbar-default {
+    background-color: #FFF;
+    border-color: #e7e7e7;
+}
+
+nav .navbar-brand {
+	padding: 3px 15px;
+}
+
+nav .navbar-brand img {
+	height: 45px;
+	width: 45px;
+	display: inline-block;
+}
+
+nav .nav li:hover  {
+	border-bottom: 1px solid #666;
+}
+
+/* Header */
+header {
+	background-color: #333333;
+	color: #FFF;
+}
+
+header .col-sm-7, header .col-sm-5 {
+	height: 550px;
+}
+
+header .col-sm-7 {
+	padding-top: 150px;
+}
+
+header button {
+	margin-top: 30px;
+	text-decoration: none;
+	background-color: transparent;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	color: #FFF;
+	padding: 5px 15px;
+}
+
+header button:hover {
+	transition: background-color 0.5s ease;
+	background-color: #FFF;
+	color: #000;
+}
+
+.avatar {
+	background-image: url("../img/avatar.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+/* Portfolio */
+
+#portfolio {
+	padding: 50px 0;
+}
+
+#portfolio .col-sm-6 {
+	margin: 10px 0;
+}
+
+#portfolio .hover-content {
+	background-color:rgba(0, 0, 0, 0.5);
+	height: 256px;
+	position: relative;
+	padding-top: 50px;
+	display: none;
+}
+
+#portfolio .hover-wrapper {
+	height: 256px;
+	
+}
+
+#portfolio a{
+	text-decoration: none;
+}
+
+#portfolio .hover-content .tags {
+	color: #FFF;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 8px;
+	line-height: 40px;
+}
+
+#portfolio .hover-content .more {
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #FFF;
+	text-decoration: none;
+}
+
+#portfolio .robben-portfolio {
+	background-image: url("../img/work-1.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 256px;
+}
+
+.shawon-notes-portfolio {
+	background-image: url("../img/work-2.jpg");
+	background-size: cover;
+	background-position: center center;
+	height: 256px;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+	background-color: #333333;
+	color: #FFF;
+}
+
+#testimonials #carousel-example-generic{
+	height: 500px;
+}
+
+#testimonials .carousel-inner {
+	position: absolute;
+	top: 50%;
+	width: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#testimonials .carousel-control{
+	background-image: none;
+	display: none;
+}
+
+/* Contact */
+
+#contact {
+	padding: 50px 0;
+}
+
+#contact button{
+	background-color: #FFF;
+	color: #000;
+	border: 1px solid #333333;
+	border-radius: 5px;	
+	text-decoration: none;
+	padding: 5px 15px;
+}
+
+#contact button:hover {
+	background-color: #333333;
+	transition: background-color 0.5s ease;
+	color: #FFF;
+}
+
+/* Footer */
+
+footer {
+	background-color: #333333;
+	color: #FFF;
+	padding: 50px 0 20px 0;
+
+}
+
+footer .social-icons a{
+	font-size: 30px;
+	color: #FFF;
+	display: inline-block;
+	height: 50px;
+	width: 50px;
+	border-radius: 5px;
+	padding: 5px 0 0 0px;
+	margin-bottom: 50px;
+}
+
+footer .linkedin-icon {
+	background-color: #007bb5;
+}
+
+footer .linkedin-icon:hover {
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+	color: #007bb5;
+	border: 1px solid #007bb5;	
+}
+
+footer .github-icon {
+	background-color: #810080;
+}
+
+footer .github-icon:hover {
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+	color: #810080;
+	border: 1px solid #810080;
+}
+
+footer .codepen-icon {
+	background-color: #000;
+}
+
+footer .codepen-icon:hover {
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+	color: #000;
+	border: 1px solid #000;
+}
+
+footer .fcc-icon {
+	background-color: #1f550e;
+}
+
+footer .fcc-icon:hover {
+	background-color: transparent;
+	transition: background-color 0.5s ease;
+	color: #1f550e;
+	border: 1px solid #1f550e;
+}
+
+footer .resume-link a {
+	color: #FFF;
+}
+
+footer .resume-link i{
+	margin-bottom: 10px;
+}
+
+footer .footer-logo img {
+	width: 80px;
+}
+
+
+footer .resume-link {
+	margin-bottom: 80px;
+}
+
+
+
+

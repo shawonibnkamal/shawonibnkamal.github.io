@@ -1,0 +1,15 @@
+@media (max-width: 750px) {
+	.avatar {
+		display: none;
+	}
+  
+	header {
+		background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("../img/avatar.jpg");
+		background-position: center center;
+		height: 500px;
+	}
+	
+	header .col-sm-7 {
+		padding-top: 50px;
+	}
+}
