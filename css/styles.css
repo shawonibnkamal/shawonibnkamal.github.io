@@ -120,14 +120,14 @@ header button:hover {
 }
 
 #portfolio .robben-portfolio {
-	background-image: url("../img/work1.jpg");
+	background-image: url("../img/work1.JPG");
 	background-size: cover;
 	background-position: center center;
 	height: 256px;
 }
 
 .shawon-notes-portfolio {
-	background-image: url("../img/work2.jpg");
+	background-image: url("../img/work2.JPG");
 	background-size: cover;
 	background-position: center center;
 	height: 256px;
