@@ -34,8 +34,12 @@ nav .navbar-brand img {
 	display: inline-block;
 }
 
+nav .nav li  {
+	border-bottom: 1px solid #FFF;
+}
+
 nav .nav li:hover  {
-	border-bottom: 1px solid #666;
+	border-bottom: 1px solid #666;	
 }
 
 /* Header */
@@ -126,8 +130,29 @@ header button:hover {
 	height: 256px;
 }
 
-.shawon-notes-portfolio {
+#portfolio .shawon-notes-portfolio {
 	background-image: url("../img/work2.JPG");
+	background-size: cover;
+	background-position: center center;
+	height: 256px;
+}
+
+#portfolio .wiki-viewer-portfolio {
+	background-image: url("../img/wiki-viewer.JPG");
+	background-size: cover;
+	background-position: center center;
+	height: 256px;
+}
+
+#portfolio .weather-app-portfolio {
+	background-image: url("../img/weather-app.JPG");
+	background-size: cover;
+	background-position: center center;
+	height: 256px;
+}
+
+#portfolio .quote-generator-portfolio {
+	background-image: url("../img/quote-generator.JPG");
 	background-size: cover;
 	background-position: center center;
 	height: 256px;
@@ -201,46 +226,46 @@ footer .social-icons a{
 
 footer .linkedin-icon {
 	background-color: #007bb5;
+	border: 1px solid #007bb5;	
 }
 
 footer .linkedin-icon:hover {
 	background-color: transparent;
 	transition: background-color 0.5s ease;
 	color: #007bb5;
-	border: 1px solid #007bb5;	
 }
 
 footer .github-icon {
 	background-color: #810080;
+	border: 1px solid #810080;
 }
 
 footer .github-icon:hover {
 	background-color: transparent;
 	transition: background-color 0.5s ease;
 	color: #810080;
-	border: 1px solid #810080;
 }
 
 footer .codepen-icon {
 	background-color: #000;
+	border: 1px solid #000;
 }
 
 footer .codepen-icon:hover {
 	background-color: transparent;
 	transition: background-color 0.5s ease;
 	color: #000;
-	border: 1px solid #000;
 }
 
 footer .fcc-icon {
 	background-color: #1f550e;
+	border: 1px solid #1f550e;
 }
 
 footer .fcc-icon:hover {
 	background-color: transparent;
 	transition: background-color 0.5s ease;
 	color: #1f550e;
-	border: 1px solid #1f550e;
 }
 
 footer .resume-link a {
