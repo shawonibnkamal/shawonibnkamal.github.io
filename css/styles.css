@@ -92,7 +92,7 @@ header button:hover {
 	background-color:rgba(0, 0, 0, 0.5);
 	height: 256px;
 	position: relative;
-	padding-top: 50px;
+	padding: 50px 40px 0 40px;
 	display: none;
 }
 
@@ -196,6 +196,7 @@ header button:hover {
 	border-radius: 5px;	
 	text-decoration: none;
 	padding: 5px 15px;
+	font-size: 20px;
 }
 
 #contact button:hover {
@@ -270,10 +271,12 @@ footer .fcc-icon:hover {
 
 footer .resume-link a {
 	color: #FFF;
+	font-size: 20px;
 }
 
 footer .resume-link i{
 	margin-bottom: 10px;
+	font-size: 50px;
 }
 
 footer .footer-logo img {
@@ -283,6 +286,10 @@ footer .footer-logo img {
 
 footer .resume-link {
 	margin-bottom: 80px;
+}
+
+footer .credit {
+	font-size: 16px;
 }
 
 
