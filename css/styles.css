@@ -34,12 +34,20 @@ nav .navbar-brand img {
 	display: inline-block;
 }
 
-nav .nav li  {
+nav .nav li a {
 	border-bottom: 1px solid #FFF;
+	transition: border-color 0.5s ease, color 0.5s ease; 
 }
 
-nav .nav li:hover  {
-	border-bottom: 1px solid #666;	
+nav .nav li a:hover  {
+}
+
+nav .nav .active {
+	border-bottom: 1px solid #666;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #FFF;	
 }
 
 /* Header */
@@ -67,7 +75,7 @@ header button {
 }
 
 header button:hover {
-	transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease, color 0.5s ease;
 	background-color: #FFF;
 	color: #000;
 }
@@ -201,7 +209,7 @@ header button:hover {
 
 #contact button:hover {
 	background-color: #333333;
-	transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease, color 0.5s ease;
 	color: #FFF;
 }
 
@@ -232,7 +240,7 @@ footer .linkedin-icon {
 
 footer .linkedin-icon:hover {
 	background-color: transparent;
-	transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease, color 0.5s ease;
 	color: #007bb5;
 }
 
@@ -243,7 +251,7 @@ footer .github-icon {
 
 footer .github-icon:hover {
 	background-color: transparent;
-	transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease, color 0.5s ease;
 	color: #810080;
 }
 
@@ -254,7 +262,7 @@ footer .codepen-icon {
 
 footer .codepen-icon:hover {
 	background-color: transparent;
-	transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease, color 0.5s ease;
 	color: #000;
 }
 
@@ -265,13 +273,21 @@ footer .fcc-icon {
 
 footer .fcc-icon:hover {
 	background-color: transparent;
-	transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease, color 0.5s ease;
 	color: #1f550e;
 }
 
 footer .resume-link a {
 	color: #FFF;
 	font-size: 20px;
+	text-decoration: none;
+	display: inline-block;
+	border-bottom: 1px solid #333333;
+	transition: border-color 0.5s ease;
+}
+
+footer .resume-link a:hover {
+	border-bottom: 1px solid #FFFFFF;
 }
 
 footer .resume-link i{
