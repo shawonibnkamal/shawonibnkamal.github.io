@@ -120,6 +120,7 @@ header button:hover {
 	padding: 5px;
 	margin: 8px;
 	line-height: 40px;
+	font-size: 20px;
 }
 
 #portfolio .hover-content .more {
@@ -131,40 +132,13 @@ header button:hover {
 	text-decoration: none;
 }
 
-#portfolio .robben-portfolio {
-	background-image: url("../img/work1.JPG");
+
+#portfolio .portfolio-item {
 	background-size: cover;
 	background-position: center center;
 	height: 256px;
 }
 
-#portfolio .shawon-notes-portfolio {
-	background-image: url("../img/work2.JPG");
-	background-size: cover;
-	background-position: center center;
-	height: 256px;
-}
-
-#portfolio .wiki-viewer-portfolio {
-	background-image: url("../img/wiki-viewer.JPG");
-	background-size: cover;
-	background-position: center center;
-	height: 256px;
-}
-
-#portfolio .weather-app-portfolio {
-	background-image: url("../img/weather-app.JPG");
-	background-size: cover;
-	background-position: center center;
-	height: 256px;
-}
-
-#portfolio .quote-generator-portfolio {
-	background-image: url("../img/quote-generator.JPG");
-	background-size: cover;
-	background-position: center center;
-	height: 256px;
-}
 
 
 /* Testimonials */
